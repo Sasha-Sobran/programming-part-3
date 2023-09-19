@@ -1,4 +1,4 @@
-def get_longest_subsequence_length(array: list) -> int:
+def get_longest_peak_subsequence_length(array: list) -> int:
     if len(array) <= 2:
         return 0
     current_subsequence_length = 1
