@@ -41,8 +41,7 @@ class TestGetLongestSubsequenceLen(unittest.TestCase):
 
     def test_three_peak_subsequence(self):
         self.assertEqual(
-            get_longest_subsequence_len([1, 3, 5, 4, 2, 8, 3, 7, 1, 3, 5, 4, 2, 8, 3, 7, 1, 3, 5, 4, 2, 8, 3, 7, ]), 5)
-
+            get_longest_subsequence_len([1, 3, 5, 4, 2, 8, 3, 7, 1, 3, 4, 2, 8, 3, 7, 1, 5, 4, 8, 3, 7, ]), 5)
 
 if __name__ == "__main__":
     unittest.main()
