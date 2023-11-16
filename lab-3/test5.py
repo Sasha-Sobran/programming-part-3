@@ -1,6 +1,6 @@
 import unittest
 
-from main import is_gas_supply_possible
+from main5 import is_gas_supply_possible
 
 
 class TestGasSupplyFunction(unittest.TestCase):
